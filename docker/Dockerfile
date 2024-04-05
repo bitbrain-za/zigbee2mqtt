@@ -1,4 +1,4 @@
-FROM node:20.6.1-bullseye-slim as base
+FROM node:20.12.1-bullseye-slim as base
 
 WORKDIR /app
 RUN apk add --no-cache tzdata eudev
